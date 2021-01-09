@@ -7,3 +7,9 @@ The main task is to create an NLI model that assigns labels of 0, 1, or 2 (corre
 2.   Goal</br>
 The main goal of this project is to determine the relationship between different sentences by classifying the relation between the sentences according to their respective labels and train the model to obtain good accuracy. The assigned labels are  0, 1, or 2 (corresponding to entailment, neutral, and contradiction) respectively.</br></br>
 
+3. Data Analysis</br></br>
+
+Language Distribution
+
+![Language Distribution]()
+
