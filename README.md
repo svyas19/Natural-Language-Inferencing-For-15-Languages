@@ -19,7 +19,7 @@ The most frequent Words</br></br>
 ![Word Cloud](https://github.com/svyas19/Natural-Language-Inferencing-For-15-Languages/blob/main/word%20cloud.png)</br>
 
 
-5. Translation</br>
+5. Translation</br></br>
 The premise-hypothesis sentence pairs were translated using the google translate API, but it was found that the API is inconsistent and fails to translate some sentences. This is especially a problem when one part of a sentence pair is translated to English and the other is not. In this case, it might just be easier to keep sentences in their original language than to use a pair that uses sentences in two different languages.</br></br>
 
 6. Combining datasets</br>
@@ -27,7 +27,7 @@ Both the datasets were combined to create a larger corpus. The majority of this 
 
 7. Tokenization</br>
 Tokenization is the process of creating a dictionary of words from the dataset in order to represent word-based sentences in coordinate-based vector representation. These token-based arrays then can be vectorized and a model can be then trained to classify those vectors.</br></br>
-There are a few ways of performing tokenization. In this project, tokenization was performed using the 'Tokenizer' function from the TensorFlow library. The most common usage of tokenization involves tokenizing only train set. This allows us to get an idea of well the neural network can generalize when testing over the validation or test sets. This method of implementing tokenizer was implemented in the majority of the models trained. However, to see how much effect this can have a second method of tokenization was implemented in a few models which involves tokenizing the entire dataset.
+There are a few ways of performing tokenization. In this project, tokenization was performed using the 'Tokenizer' function from the TensorFlow library. The most common usage of tokenization involves tokenizing only train set. This allows us to get an idea of well the neural network can generalize when testing over the validation or test sets. This method of implementing tokenizer was implemented in the majority of the models trained. However, to see how much effect this can have a second method of tokenization was implemented in a few models which involves tokenizing the entire dataset.</br></br>
 
 8. Model Evaluation Results
 ![Evaluation Results](https://github.com/svyas19/Natural-Language-Inferencing-For-15-Languages/blob/main/Evaluation%20Results%20.png)
