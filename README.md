@@ -29,9 +29,10 @@ Both the datasets were combined to create a larger corpus. The majority of this 
 Tokenization is the process of creating a dictionary of words from the dataset in order to represent word-based sentences in coordinate-based vector representation. These token-based arrays then can be vectorized and a model can be then trained to classify those vectors.</br></br>
 There are a few ways of performing tokenization. In this project, tokenization was performed using the 'Tokenizer' function from the TensorFlow library. The most common usage of tokenization involves tokenizing only train set. This allows us to get an idea of well the neural network can generalize when testing over the validation or test sets. This method of implementing tokenizer was implemented in the majority of the models trained. However, to see how much effect this can have a second method of tokenization was implemented in a few models which involves tokenizing the entire dataset.</br></br>
 
-# 8. Model Evaluation Results
-![Evaluation Results](https://github.com/svyas19/Natural-Language-Inferencing-For-15-Languages/blob/main/Evaluation%20Results%20.png)
+# 8. Model Evaluation Results</br>
+![Evaluation Results](https://github.com/svyas19/Natural-Language-Inferencing-For-15-Languages/blob/main/Evaluation%20Results%20.png)</br>
 
 
+# 9. Final Model Results</br>
 
-
+![Final_Model_Results](https://github.com/svyas19/Natural-Language-Inferencing-For-15-Languages/blob/main/Final_model_results.png)</br>
